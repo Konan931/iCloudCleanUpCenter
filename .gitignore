@@ -1,0 +1,34 @@
+# Local backups
+backups/
+
+# Runtime output
+logs/*
+archives/*
+staging/*
+cronjob_data/*
+
+!logs/.gitkeep
+!archives/.gitkeep
+!staging/.gitkeep
+
+# Local iCloud archive material
+iCloud Drive (Archiv)/
+iCloud Drive (Archiv) - 1/
+
+# Generated artifacts
+*.log
+*.zip
+*.bak
+*.backup
+*.backup.*
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp

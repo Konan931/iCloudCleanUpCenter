@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.klausbernt.icloud_report</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/klausbernt/System_Hygiene/iCloudCleanUpCenter/scripts/icloud_report.sh</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>3</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/Users/klausbernt/icloud-reports/launchd-icloud_report.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/klausbernt/icloud-reports/launchd-icloud_report.err</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>
